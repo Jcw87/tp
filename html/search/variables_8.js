@@ -14,7 +14,7 @@ var searchData=
   ['hankakutocode_11',['HankakuToCode',['../OSFont_8c.html#a1e2a8cb112ba68f344e65b4adcdbcfdb',1,'OSFont.c']]],
   ['hd_12',['hd',['../structOSHeapCell.html#a3dce73d32ece4113ceb1f019583a6b9a',1,'OSHeapCell']]],
   ['head_13',['head',['../structOSThreadQueue.html#a2801ee125e204b7f0abe3b5320a98014',1,'OSThreadQueue']]],
-  ['headbrkname_14',['headBrkName',['../d__a__alink_8cpp.html#af2928dd627ff5fce47e5296e192f6c4a',1,'d_a_alink.cpp']]],
+  ['headbrkname_14',['headBrkName',['../d__a__alink_8cpp.html#a2f18c130950604e7d0e5ba59775f36a8',1,'d_a_alink.cpp']]],
   ['header_5flength_15',['header_length',['../structSArcHeader.html#a4847de52e03b49c8dd9990d8670b3b06',1,'SArcHeader']]],
   ['heap_16',['heap',['../structCPaneMgrAlpha.html#aa92a4989cd7fab4d3d9bb7ef2471878f',1,'CPaneMgrAlpha::heap()'],['../structdRes__info__c.html#a962bc4237e8df3f1a8c28681cf2c92eb',1,'dRes_info_c::heap()'],['../classdAttention__c.html#a17b65023ddca6c4bb2a53e6014aa6498',1,'dAttention_c::heap()']]],
   ['heap_17',['Heap',['../structcMl.html#a074433e7e69b6f043d58e7cd3fdc5fb6',1,'cMl']]],

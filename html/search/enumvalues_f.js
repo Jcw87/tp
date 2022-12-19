@@ -49,5 +49,6 @@ var searchData=
   ['out_5finit_46',['OUT_INIT',['../classJStudio_1_1TFunctionValue.html#aed12c4e15d04deacdf481c76184947bda0bf61c0d1b5283bc80447261eb654f8f',1,'JStudio::TFunctionValue']]],
   ['output_5fconsole_47',['OUTPUT_CONSOLE',['../structJUTConsole.html#a6932adf6a81c4c2d4f2dd8f76dc3f0a1aaba7be9daff3eab9a89779be2412fb48',1,'JUTConsole']]],
   ['output_5fnone_48',['OUTPUT_NONE',['../structJUTConsole.html#a6932adf6a81c4c2d4f2dd8f76dc3f0a1a07e56d0ccc9f35caf69a2461052dbaab',1,'JUTConsole']]],
-  ['output_5fosreport_49',['OUTPUT_OSREPORT',['../structJUTConsole.html#a6932adf6a81c4c2d4f2dd8f76dc3f0a1a3b33a43fad34bab707a246827a61cc6d',1,'JUTConsole']]]
+  ['output_5fosr_5fand_5fconsole_49',['OUTPUT_OSR_AND_CONSOLE',['../structJUTConsole.html#a6932adf6a81c4c2d4f2dd8f76dc3f0a1aa292b2475f8114cc75c6b5101e48f739',1,'JUTConsole']]],
+  ['output_5fosreport_50',['OUTPUT_OSREPORT',['../structJUTConsole.html#a6932adf6a81c4c2d4f2dd8f76dc3f0a1a3b33a43fad34bab707a246827a61cc6d',1,'JUTConsole']]]
 ];
