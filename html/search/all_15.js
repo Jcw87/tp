@@ -1,7 +1,7 @@
 var searchData=
 [
   ['u_0',['U',['../structcSGlobe.html#a7a60eb8a480e364713c378406b6e7b2c',1,'cSGlobe::U()'],['../structdCamera__c.html#a4c050aa9674936a2711702a831425478',1,'dCamera_c::U()'],['../structcSGlobe.html#a1937b6fd8f657dcd986ccaf75dff6264',1,'cSGlobe::U()']]],
-  ['u_1',['u',['../unionFpscrUnion.html#a867dae2c6ea126ee255ef8c109310c9c',1,'FpscrUnion::u()'],['../structJStudio_1_1TAdaptor.html#aedb18683fd1bcd604beff8e14ce36bc8',1,'JStudio::TAdaptor::u()']]],
+  ['u_1',['u',['../unionFpscrUnion.html#a34d984831121087260476c078ee07e90',1,'FpscrUnion::u()'],['../structJStudio_1_1TAdaptor.html#aedb18683fd1bcd604beff8e14ce36bc8',1,'JStudio::TAdaptor::u()']]],
   ['u16_2',['u16',['../types_8h.html#a9e6c91d77e24643b888dbd1a1a590054',1,'u16():&#160;types.h'],['../unionPPCWGPipe.html#a54691399b526673acdb012dd9db1b3d1',1,'PPCWGPipe::u16()']]],
   ['u32_3',['u32',['../types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac',1,'u32():&#160;types.h'],['../unionPPCWGPipe.html#a36f6c6095ee0cd5b7e1ad444ecd818af',1,'PPCWGPipe::u32()']]],
   ['u32data_4',['u32data',['../structJStudio_1_1TFunctionValue__composite_1_1TData.html#a54fd6928f7f1b307d6056a6b7b6471c2',1,'JStudio::TFunctionValue_composite::TData']]],
@@ -153,8 +153,8 @@ var searchData=
   ['unkoffset_150',['unkOffset',['../structJ3DAnmTextureSRTKeyData.html#a52647fe6d8b848ff7a64b2cc2a437638',1,'J3DAnmTextureSRTKeyData']]],
   ['unkstatus_5f0_151',['UNKSTATUS_0',['../structJUTFader.html#a606d584eb413fdd3bae4105c7db0e35ba865acf61d78e4742334359d7d0f783ff',1,'JUTFader']]],
   ['unkstatus_5fm1_152',['UNKSTATUS_M1',['../structJUTFader.html#a606d584eb413fdd3bae4105c7db0e35baa1424faf4cb3b0d746b5da7002333a2c',1,'JUTFader']]],
-  ['unlink_153',['unlink',['../structDynamicModuleControlBase.html#af8db4d9eabf5233d8ba2669b4f49c725',1,'DynamicModuleControlBase::unlink()'],['../structJUTCacheFont.html#ae3e374faf41b1c879fd6ae32ba2b57bc',1,'JUTCacheFont::unlink()']]],
-  ['unlink_154',['Unlink',['../structcDylPhs.html#a1200da2ab228a7a4a7d719b2a703fb84',1,'cDylPhs::Unlink(request_of_phase_process_class *, s16)'],['../structcDylPhs.html#a1486e71bba1471a6eb1e1da68843120c',1,'cDylPhs::Unlink(request_of_phase_process_class *, s16)']]],
+  ['unlink_153',['Unlink',['../structcDylPhs.html#a1200da2ab228a7a4a7d719b2a703fb84',1,'cDylPhs::Unlink(request_of_phase_process_class *, s16)'],['../structcDylPhs.html#a1486e71bba1471a6eb1e1da68843120c',1,'cDylPhs::Unlink(request_of_phase_process_class *, s16)']]],
+  ['unlink_154',['unlink',['../structDynamicModuleControlBase.html#af8db4d9eabf5233d8ba2669b4f49c725',1,'DynamicModuleControlBase::unlink()'],['../structJUTCacheFont.html#ae3e374faf41b1c879fd6ae32ba2b57bc',1,'JUTCacheFont::unlink()']]],
   ['unlink_5f_5f12jutcachefontfpq212jutcachefont15tglyphcacheinfo_155',['unlink__12JUTCacheFontFPQ212JUTCacheFont15TGlyphCacheInfo',['../JUTCacheFont_8cpp.html#ab4c04ad9fd66043fcdbdb9e6feb8ecc4',1,'JUTCacheFont.cpp']]],
   ['unlink_5f_5f24dynamicmodulecontrolbasefv_156',['unlink__24DynamicModuleControlBaseFv',['../c__dylink_8cpp.html#a8ca566ede8b8179321cd73da27ad0864',1,'c_dylink.cpp']]],
   ['unlink_5f_5f7cdylphsfp30request_5fof_5fphase_5fprocess_5fclasss_157',['Unlink__7cDylPhsFP30request_of_phase_process_classs',['../d__s__play_8cpp.html#a413bc36c019b65d804cfa7be15f3d726',1,'Unlink__7cDylPhsFP30request_of_phase_process_classs():&#160;d_s_play.cpp'],['../c__dylink_8cpp.html#a413bc36c019b65d804cfa7be15f3d726',1,'Unlink__7cDylPhsFP30request_of_phase_process_classs():&#160;c_dylink.cpp']]],
@@ -171,7 +171,7 @@ var searchData=
   ['unmutescenebgm_5f_5f8z2seqmgrful_168',['unMuteSceneBgm__8Z2SeqMgrFUl',['../Z2SceneMgr_8cpp.html#a337cb58995c7ed2011e569015f1373b7',1,'Z2SceneMgr.cpp']]],
   ['unoriented_169',['UNORIENTED',['../ansi__files_8h.html#af6827b9bbcdbe2d4efa7ba30be248553af52ed2427e99ed120503006e807cfedd',1,'ansi_files.h']]],
   ['unreserveexi2port_170',['UnreserveEXI2Port',['../dolphin__trk__glue_8c.html#a66114d2788086304e45eab5678d04aa4',1,'UnreserveEXI2Port():&#160;dolphin_trk_glue.c'],['../dolphin__trk__glue_8h.html#a5294015cc690bf80b188c26fa8e9838c',1,'UnreserveEXI2Port():&#160;dolphin_trk_glue.c']]],
-  ['unselect_5fframe_171',['UNSELECT_FRAME',['../classdMeter__ringHIO__c.html#ac34010ab24b35b2b050ac13038c9d038a2539165f4caafee15ce57d9cfa630790',1,'dMeter_ringHIO_c']]],
+  ['unselect_5fframe_171',['UNSELECT_FRAME',['../classdMeter__ringHIO__c.html#afd96597137201dad123836be0076e895a2539165f4caafee15ce57d9cfa630790',1,'dMeter_ringHIO_c']]],
   ['unsetrun_172',['UnsetRun',['../OSThread_8c.html#a5b16f1d9a607516405aa9bd6d05539f4',1,'UnsetRun(OSThread *thread):&#160;OSThread.c'],['../OSThread_8h.html#a5b16f1d9a607516405aa9bd6d05539f4',1,'UnsetRun(OSThread *thread):&#160;OSThread.h']]],
   ['up_173',['Up',['../structdCamera__c.html#a0e5582eae082f5b1658439d7838c9465',1,'dCamera_c']]],
   ['up_5f_5f9dcamera_5fcfv_174',['Up__9dCamera_cFv',['../d__camera_8cpp.html#a6dd3e6f38731c56f72758bf0573ead2c',1,'d_camera.cpp']]],
