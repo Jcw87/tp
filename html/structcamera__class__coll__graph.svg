@@ -171,39 +171,39 @@ var sectionId = 'dynsection-1';
 <polygon fill="#9a32cd" stroke="#9a32cd" points="116.77,-215.52 106.26,-216.79 115.27,-222.36 116.77,-215.52"/>
 <text text-anchor="middle" x="164" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mpPcMtd</text>
 </g>
-<!-- Node8 -->
+<!-- Node24 -->
 <g id="node7" class="node">
-<title>Node8</title>
+<title>Node24</title>
 <g id="a_node7"><a xlink:href="structleafdraw__method__class.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="333.5,-149 214.5,-149 214.5,-130 333.5,-130 333.5,-149"/>
 <text text-anchor="middle" x="274" y="-137" font-family="Helvetica,sans-Serif" font-size="10.00">leafdraw_method_class</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node8 -->
+<!-- Node7&#45;&gt;Node24 -->
 <g id="edge7" class="edge">
-<title>Node7&#45;&gt;Node8</title>
+<title>Node7&#45;&gt;Node24</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M101.16,-193.18C131.57,-183.49 173.82,-170.09 211,-158.5 220.46,-155.55 230.74,-152.39 240.16,-149.5"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="100.43,-189.74 91.96,-196.12 102.55,-196.41 100.43,-189.74"/>
 <text text-anchor="middle" x="164" y="-184.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mBase</text>
 </g>
-<!-- Node8&#45;&gt;Node2 -->
+<!-- Node24&#45;&gt;Node2 -->
 <g id="edge17" class="edge">
-<title>Node8&#45;&gt;Node2</title>
+<title>Node24&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M345.25,-136.72C348.55,-136.63 351.81,-136.56 355,-136.5 387.44,-135.89 395.56,-135.88 428,-136.5 606.07,-139.92 816.63,-149.62 916.24,-154.55"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="345.38,-133.21 335.49,-136.99 345.58,-140.21 345.38,-133.21"/>
 <text text-anchor="middle" x="627" y="-146.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mpMtd</text>
 </g>
-<!-- Node8&#45;&gt;Node3 -->
+<!-- Node24&#45;&gt;Node3 -->
 <g id="edge9" class="edge">
-<title>Node8&#45;&gt;Node3</title>
+<title>Node24&#45;&gt;Node3</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M345.42,-139.37C402.83,-140.67 485.61,-145.74 556,-162.5 623.19,-178.5 697.48,-214.1 731.55,-231.52"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="345.51,-135.87 335.45,-139.18 345.38,-142.87 345.51,-135.87"/>
 <text text-anchor="middle" x="501" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mpLeafdrawMtd</text>
 </g>
-<!-- Node8&#45;&gt;Node4 -->
+<!-- Node24&#45;&gt;Node4 -->
 <g id="edge6" class="edge">
-<title>Node8&#45;&gt;Node4</title>
+<title>Node24&#45;&gt;Node4</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M332.39,-154.93C334,-156.04 335.54,-157.23 337,-158.5 351.38,-171.06 341.08,-184.44 355,-197.5 384.03,-224.73 427.74,-239.17 459.58,-246.52"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="334.34,-152.01 323.91,-150.16 330.91,-158.11 334.34,-152.01"/>
 <text text-anchor="middle" x="391.5" y="-240.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mpDrawMtd</text>
@@ -500,49 +500,49 @@ var sectionId = 'dynsection-1';
 <polygon fill="#9a32cd" stroke="#9a32cd" points="86.41,-849.85 76.12,-847.32 82.59,-855.71 86.41,-849.85"/>
 <text text-anchor="middle" x="164" y="-925.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mBaseScale</text>
 </g>
-<!-- Node11 -->
+<!-- Node10 -->
 <g id="node12" class="node">
-<title>Node11</title>
+<title>Node10</title>
 <g id="a_node12"><a xlink:href="structcreate__tag__class.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="546.5,-201 455.5,-201 455.5,-182 546.5,-182 546.5,-201"/>
 <text text-anchor="middle" x="501" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">create_tag_class</text>
 </a>
 </g>
 </g>
-<!-- Node11&#45;&gt;Node2 -->
+<!-- Node10&#45;&gt;Node2 -->
 <g id="edge14" class="edge">
-<title>Node11&#45;&gt;Node2</title>
+<title>Node10&#45;&gt;Node2</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M558.18,-187.45C648.39,-180.95 824.66,-168.26 916,-161.68"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="558.06,-183.95 548.34,-188.16 558.57,-190.93 558.06,-183.95"/>
 <text text-anchor="middle" x="751.5" y="-179.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mCreateTag</text>
 </g>
-<!-- Node11&#45;&gt;Node36 -->
+<!-- Node10&#45;&gt;Node36 -->
 <g id="edge35" class="edge">
-<title>Node11&#45;&gt;Node36</title>
+<title>Node10&#45;&gt;Node36</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M530.31,-207.64C540.21,-214.82 550.27,-224.23 556,-235.5 572.99,-268.93 549.69,-543.95 574,-572.5 605.25,-609.21 645.47,-561.87 680,-595.5 721.49,-635.91 744.51,-827.76 749.47,-873.63"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="532.54,-204.92 522.28,-202.28 528.66,-210.74 532.54,-204.92"/>
 <text text-anchor="middle" x="627" y="-609.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mAcTg</text>
 <text text-anchor="middle" x="627" y="-598.5" font-family="Helvetica,sans-Serif" font-size="10.00">mDwTg</text>
 </g>
-<!-- Node12 -->
+<!-- Node11 -->
 <g id="node13" class="node">
-<title>Node12</title>
+<title>Node11</title>
 <g id="a_node13"><a xlink:href="structnode__class.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="307,-186 241,-186 241,-167 307,-167 307,-186"/>
 <text text-anchor="middle" x="274" y="-174" font-family="Helvetica,sans-Serif" font-size="10.00">node_class</text>
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node11 -->
+<!-- Node11&#45;&gt;Node10 -->
 <g id="edge15" class="edge">
-<title>Node12&#45;&gt;Node11</title>
+<title>Node11&#45;&gt;Node10</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M318.39,-179.29C349.02,-181.27 391.03,-184.01 428,-186.5 436.75,-187.09 446.1,-187.73 455.07,-188.35"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="318.95,-175.82 308.75,-178.67 318.5,-182.8 318.95,-175.82"/>
 <text text-anchor="middle" x="391.5" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00"> mpNode</text>
 </g>
-<!-- Node12&#45;&gt;Node12 -->
+<!-- Node11&#45;&gt;Node11 -->
 <g id="edge16" class="edge">
-<title>Node12&#45;&gt;Node12</title>
+<title>Node11&#45;&gt;Node11</title>
 <path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M254.48,-197.43C256.92,-201.29 263.43,-204 274,-204 293.34,-204 299.08,-194.94 291.22,-186.37"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="257.86,-198.35 256.47,-187.85 251.01,-196.93 257.86,-198.35"/>
 <text text-anchor="middle" x="274" y="-218" font-family="Helvetica,sans-Serif" font-size="10.00"> mpNextNode</text>
