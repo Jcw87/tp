@@ -3580,7 +3580,7 @@ var searchData=
   ['fragmentid_3577',['fragmentID',['../____init__cpp__exceptions_8cpp.html#a21243c988619632d6fefcc6327be951d',1,'__init_cpp_exceptions.cpp']]],
   ['fragmentinfo_3578',['fragmentinfo',['../Gecko__ExceptionPPC_8cpp.html#a50d339052a5e01bc4f36f7b736b8b304',1,'Gecko_ExceptionPPC.cpp']]],
   ['framebuffer_3579',['frameBuffer',['../JUTVideo_8cpp.html#a4ea58fd484f2962297ec8fc6b5ca8ab4',1,'JUTVideo.cpp']]],
-  ['frameinit_3580',['frameInit',['../structJ3DDrawBuffer.html#a1bb32fa4e4d094b2cc43d607a03a39ff',1,'J3DDrawBuffer::frameInit()'],['../structJ3DVertexBuffer.html#ac91c13f33f438482a27ddd745c966c74',1,'J3DVertexBuffer::frameInit()']]],
+  ['frameinit_3580',['frameInit',['../structJ3DDrawBuffer.html#ad6644f866b149f27b879fd6e783d4ce3',1,'J3DDrawBuffer::frameInit()'],['../structJ3DVertexBuffer.html#ac91c13f33f438482a27ddd745c966c74',1,'J3DVertexBuffer::frameInit()']]],
   ['frameinit_5f_5f13j3ddrawbufferfv_3581',['frameInit__13J3DDrawBufferFv',['../J3DDrawBuffer_8cpp.html#ad8881d7dfc555d84f510b1a0a3d700c8',1,'frameInit__13J3DDrawBufferFv():&#160;J3DDrawBuffer.cpp'],['../d__drawlist_8cpp.html#ad8881d7dfc555d84f510b1a0a3d700c8',1,'frameInit__13J3DDrawBufferFv():&#160;d_drawlist.cpp']]],
   ['frameupdate_3582',['frameUpdate',['../classmDoExt__morf__c.html#a19eaf77f945bd2e61fe43102647f616f',1,'mDoExt_morf_c']]],
   ['frameupdate_5f_5f13mdoext_5fmorf_5fcfv_3583',['frameUpdate__13mDoExt_morf_cFv',['../m__Do__ext_8cpp.html#acf95b4c3460c0e02eb46250bd515a63f',1,'m_Do_ext.cpp']]],
