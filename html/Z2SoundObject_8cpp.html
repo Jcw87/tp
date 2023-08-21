@@ -89,8 +89,8 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="Z2SoundObject_8h_source.html">Z2AudioLib/Z2SoundObject.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="JASGadget_8h_source.html">JSystem/JAudio2/JASGadget.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
 <code>#include &quot;asm/Z2AudioLib/Z2SoundObject/deleteObject__14Z2SoundObjBaseFv.s&quot;</code><br />
 <code>#include &quot;asm/Z2AudioLib/Z2SoundObject/dispose__14Z2SoundObjBaseFv.s&quot;</code><br />
 <code>#include &quot;asm/Z2AudioLib/Z2SoundObject/stopOK__14Z2SoundObjBaseFR17Z2SoundHandlePool.s&quot;</code><br />
@@ -268,8 +268,6 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a1d12e6552ba9bca754a1cdbcc557d86f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Z2SoundObject_8cpp.html#a1d12e6552ba9bca754a1cdbcc557d86f">__float_max</a></td></tr>
-<tr class="separator:a1d12e6552ba9bca754a1cdbcc557d86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ace15a2ef9b18903d9024717a4427cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structZ2SoundInfo.html">Z2SoundInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Z2SoundObject_8cpp.html#a8ace15a2ef9b18903d9024717a4427cd">data_80450B4C</a></td></tr>
 <tr class="separator:a8ace15a2ef9b18903d9024717a4427cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82f59053b99d3ea99326b60f2a24951c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Z2SoundObject_8cpp.html#a82f59053b99d3ea99326b60f2a24951c">data_80450B60</a> [4]</td></tr>
@@ -278,6 +276,8 @@ Variables</h2></td></tr>
 <tr class="separator:a30874ed3cd6fd73ea3cfb73b0f8d5a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f69c958a82191e873c72138c91d3213"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Z2SoundObject_8cpp.html#a9f69c958a82191e873c72138c91d3213">data_80450B88</a> [4]</td></tr>
 <tr class="separator:a9f69c958a82191e873c72138c91d3213"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98b58c165eacfc265404d698e5bc9525"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Z2SoundObject_8cpp.html#a98b58c165eacfc265404d698e5bc9525">__OSReport_disable</a></td></tr>
+<tr class="separator:a98b58c165eacfc265404d698e5bc9525"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46a26f4d81772e0a9f8bfacb928ec8fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Z2SoundObject_8cpp.html#a46a26f4d81772e0a9f8bfacb928ec8fb">__vt__15Z2SoundObjAnime</a> [8]</td></tr>
 <tr class="separator:a46a26f4d81772e0a9f8bfacb928ec8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ab105b14304c4df8ec99f578d5c1038"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="Z2SoundObject_8cpp.html#a7ab105b14304c4df8ec99f578d5c1038">__vt__15Z2SoundObjArrow</a> [8]</td></tr>
@@ -1386,8 +1386,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a1d12e6552ba9bca754a1cdbcc557d86f" name="a1d12e6552ba9bca754a1cdbcc557d86f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d12e6552ba9bca754a1cdbcc557d86f">&#9670;&#160;</a></span>__float_max</h2>
+<a id="a98b58c165eacfc265404d698e5bc9525" name="a98b58c165eacfc265404d698e5bc9525"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98b58c165eacfc265404d698e5bc9525">&#9670;&#160;</a></span>__OSReport_disable</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1396,7 +1396,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> __float_max</td>
+          <td class="memname"><a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> __OSReport_disable</td>
         </tr>
       </table>
   </td>
@@ -1405,6 +1405,7 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p ><a class="el" href="m__Do__printf_8cpp.html">m_Do_printf.cpp</a> OSReport and printf Helper Functions </p>
 
 </div>
 </div>

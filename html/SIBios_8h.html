@@ -90,13 +90,14 @@ $(function() {
   <div class="headertitle"><div class="title">SIBios.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="OS_8h_source.html">dolphin/os/OS.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="OSInterrupt_8h_source.html">dolphin/os/OSInterrupt.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="OSTime_8h_source.html">dolphin/os/OSTime.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for SIBios.h:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="SIBios_8h__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="SIBios_8h__incl.svg" width="342" height="286"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -104,7 +105,7 @@ $(function() {
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="SIBios_8h__dep__incl.svg" width="536" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="SIBios_8h__dep__incl.svg" width="339" height="124"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -267,7 +268,7 @@ Functions</h2></td></tr>
 <tr class="separator:a7da89bb1deb457edffbb021ec38758f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad911252b8f8533062b05171e9786accc"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SIBios_8h.html#ad911252b8f8533062b05171e9786accc">SIGetResponseRaw</a> (<a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> chan)</td></tr>
 <tr class="separator:ad911252b8f8533062b05171e9786accc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26458ea13680f50e081bef6a70e11f23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SIBios_8h.html#a26458ea13680f50e081bef6a70e11f23">SIGetResponse</a> (<a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> chan, void *<a class="el" href="d__vibration_8cpp.html#a8893b57d88e7968dc17781c8655e17dc">data</a>)</td></tr>
+<tr class="memitem:a26458ea13680f50e081bef6a70e11f23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SIBios_8h.html#a26458ea13680f50e081bef6a70e11f23">SIGetResponse</a> (<a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> chan, void *<a class="el" href="d__vibration_8cpp.html#a923e25734c61f5a7e48bbfcfbe0c2313">data</a>)</td></tr>
 <tr class="separator:a26458ea13680f50e081bef6a70e11f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d57d95fc79d606ef79f0a15459d110e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SIBios_8h.html#a6d57d95fc79d606ef79f0a15459d110e">SITransfer</a> (<a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> chan, void *output, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> outputBytes, void *input, <a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> inputBytes, <a class="el" href="SIBios_8h.html#a8ede730d273d5d7fe6c7b726637dd387">SICallback</a> callback, <a class="el" href="OSTime_8h.html#a3d32c840b403a8d37875867a7ea9b381">OSTime</a> delay)</td></tr>
 <tr class="separator:a6d57d95fc79d606ef79f0a15459d110e"><td class="memSeparator" colspan="2">&#160;</td></tr>

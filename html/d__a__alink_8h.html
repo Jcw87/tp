@@ -93,21 +93,19 @@ $(function() {
 <code>#include &quot;<a class="el" href="Z2Creature_8h_source.html">Z2AudioLib/Z2Creature.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Z2WolfHowlMgr_8h_source.html">Z2AudioLib/Z2WolfHowlMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__a__player_8h_source.html">d/a/d_a_player.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="d__bg__s_8h_source.html">d/bg/d_bg_s.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__bg__s__acch_8h_source.html">d/bg/d_bg_s_acch.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__bg__s__lin__chk_8h_source.html">d/bg/d_bg_s_lin_chk.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__bg__w__base_8h_source.html">d/bg/d_bg_w_base.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__cc__d_8h_source.html">d/cc/d_cc_d.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="d__cc__mass__s_8h_source.html">d/cc/d_cc_mass_s.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__attention_8h_source.html">d/d_attention.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="d__drawlist_8h_source.html">d/d_drawlist.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__eye__hl_8h_source.html">d/d_eye_hl.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__jnt__col_8h_source.html">d/d_jnt_col.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="d__kankyo_8h_source.html">d/kankyo/d_kankyo.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__meter2__info_8h_source.html">d/meter/d_meter2_info.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__msg__flow_8h_source.html">d/msg/d_msg_flow.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__particle_8h_source.html">d/particle/d_particle.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__particle__copoly_8h_source.html">d/particle/d_particle_copoly.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="d__save_8h_source.html">d/save/d_save.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="f__op__actor__mng_8h_source.html">f_op/f_op_actor_mng.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="f__op__scene_8h_source.html">f_op/f_op_scene.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__a__kytag05_8h_source.html">rel/d/a/kytag/d_a_kytag05/d_a_kytag05.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="d__a__tag__mmsg_8h_source.html">rel/d/a/tag/d_a_tag_mmsg/d_a_tag_mmsg.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -123,7 +121,7 @@ $(function() {
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="d__a__alink_8h__dep__incl.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="d__a__alink_8h__dep__incl.svg" width="100%" height="393"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div>
@@ -144,6 +142,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdaAlink__matAnm__c.html">daAlink_matAnm_c</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaAlink__BckData.html">daAlink_BckData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaAlink__FaceTexData.html">daAlink_FaceTexData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdaAlink__AnmData.html">daAlink_AnmData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -609,6 +609,10 @@ Functions</h2></td></tr>
 <tr class="separator:a02cf359bf067d91f4edbf9c4ae876435"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d664a8a2f507bbe3e105d2da4a3463c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structfopAc__ac__c.html">fopAc_ac_c</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__alink_8h.html#a6d664a8a2f507bbe3e105d2da4a3463c">daAlink_searchCoach</a> (<a class="el" href="structfopAc__ac__c.html">fopAc_ac_c</a> *param_0, void *param_1)</td></tr>
 <tr class="separator:a6d664a8a2f507bbe3e105d2da4a3463c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a003275ab6fb9a24d857bd8591750cece"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__alink_8h.html#a003275ab6fb9a24d857bd8591750cece">dComIfGs_isTransformLV</a> (int i_no)</td></tr>
+<tr class="separator:a003275ab6fb9a24d857bd8591750cece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e6df0007caec0b554d23b908cd407cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__alink_8h.html#a9e6df0007caec0b554d23b908cd407cc">i_dComIfGs_isEventBit</a> (const <a class="el" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a>)</td></tr>
+<tr class="separator:a9e6df0007caec0b554d23b908cd407cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaabced8bda2183f74e0233a1f04f354c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structfopAc__ac__c.html">fopAc_ac_c</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__alink_8h.html#aaabced8bda2183f74e0233a1f04f354c">daAlink_searchPortal</a> (<a class="el" href="structfopAc__ac__c.html">fopAc_ac_c</a> *param_0, void *param_1)</td></tr>
 <tr class="separator:aaabced8bda2183f74e0233a1f04f354c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9b6949aac966ad808bd0855a42168f9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structfopAc__ac__c.html">fopAc_ac_c</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="d__a__alink_8h.html#ad9b6949aac966ad808bd0855a42168f9">daAlink_searchCanoe</a> (<a class="el" href="structfopAc__ac__c.html">fopAc_ac_c</a> *param_0, void *param_1)</td></tr>
@@ -874,6 +878,58 @@ Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a003275ab6fb9a24d857bd8591750cece" name="a003275ab6fb9a24d857bd8591750cece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a003275ab6fb9a24d857bd8591750cece">&#9670;&#160;</a></span>dComIfGs_isTransformLV()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> dComIfGs_isTransformLV </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i_no</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e6df0007caec0b554d23b908cd407cc" name="a9e6df0007caec0b554d23b908cd407cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e6df0007caec0b554d23b908cd407cc">&#9670;&#160;</a></span>i_dComIfGs_isEventBit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> i_dComIfGs_isEventBit </td>
+          <td>(</td>
+          <td class="paramtype">const&#160;</td>
+          <td class="paramname"><em>u16</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

@@ -1,6 +1,6 @@
 <map id="dSv_info_c" name="dSv_info_c">
 <area shape="rect" id="node1" title=" " alt="" coords="1196,465,1283,490"/>
-<area shape="rect" id="node2" href="$structdSv__save__c.html" title=" " alt="" coords="980,465,1075,490"/>
+<area shape="rect" id="node2" href="$classdSv__save__c.html" title=" " alt="" coords="980,465,1075,490"/>
 <area shape="rect" id="node3" href="$classdSv__player__c.html" title=" " alt="" coords="739,589,839,614"/>
 <area shape="rect" id="node4" href="$structdSv__player__status__a__c.html" title=" " alt="" coords="354,237,511,262"/>
 <area shape="rect" id="node5" href="$classdSv__player__status__b__c.html" title=" " alt="" coords="354,286,511,311"/>
@@ -17,7 +17,7 @@
 <area shape="rect" id="node13" href="$structdSv__player__get__item__c.html" title=" " alt="" coords="354,761,511,786"/>
 <area shape="rect" id="node14" href="$structdSv__player__item__record__c.html" title=" " alt="" coords="345,810,520,835"/>
 <area shape="rect" id="node15" href="$structdSv__player__item__max__c.html" title=" " alt="" coords="351,859,514,885"/>
-<area shape="rect" id="node16" href="$structdSv__player__collect__c.html" title=" " alt="" coords="360,909,505,934"/>
+<area shape="rect" id="node16" href="$classdSv__player__collect__c.html" title=" " alt="" coords="360,909,505,934"/>
 <area shape="rect" id="node17" href="$classdSv__player__wolf__c.html" title=" " alt="" coords="367,958,498,983"/>
 <area shape="rect" id="node18" href="$classdSv__light__drop__c.html" title=" " alt="" coords="371,1007,494,1033"/>
 <area shape="rect" id="node19" href="$structdSv__letter__info__c.html" title=" " alt="" coords="371,1057,494,1082"/>
@@ -26,7 +26,7 @@
 <area shape="rect" id="node22" href="$structdSv__player__config__c.html" title=" " alt="" coords="362,613,503,638"/>
 <area shape="rect" id="node23" href="$classdSv__memory__c.html" title=" " alt="" coords="733,315,845,341"/>
 <area shape="rect" id="node24" href="$structdSv__memBit__c.html" title=" " alt="" coords="377,187,488,213"/>
-<area shape="rect" id="node25" href="$structdSv__memory2__c.html" title=" " alt="" coords="730,442,849,467"/>
+<area shape="rect" id="node25" href="$classdSv__memory2__c.html" title=" " alt="" coords="730,442,849,467"/>
 <area shape="rect" id="node26" href="$structdSv__event__c.html" title=" " alt="" coords="740,638,839,663"/>
 <area shape="rect" id="node27" href="$classdSv__reserve__c.html" title=" " alt="" coords="735,491,844,517"/>
 <area shape="rect" id="node28" href="$classdSv__MiniGame__c.html" title=" " alt="" coords="727,393,852,418"/>

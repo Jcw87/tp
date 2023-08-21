@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['z2bgmid_0',['Z2BgmID',['../Z2SeqMgr_8h.html#a61d7f798d58941871faea3c813b33b5c',1,'Z2SeqMgr.h']]],
-  ['z2soundid_1',['Z2SoundID',['../Z2SeMgr_8h.html#a2015be0323c9a6d9908c0ddb691584ab',1,'Z2SeMgr.h']]]
+  ['regid_0',['RegID',['../structJASRegisterParam.html#aa1f04d37f2825f6dd459e365e257bc09',1,'JASRegisterParam']]],
+  ['resarcmessage_1',['ResArcMessage',['../JASResArcLoader_8h.html#a1377a217d616a86a8fdd14f0fccb32fe',1,'JASResArcLoader.h']]],
+  ['restype_2',['ResType',['../classJUTResReference.html#a179eca94097e5000a84875da5b8e607e',1,'JUTResReference']]]
 ];

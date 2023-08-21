@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="structdSv__save__c.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classdSv__save__c.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="802,-474.05 731,-474.05 731,-455.05 802,-455.05 802,-474.05"/>
 <text text-anchor="middle" x="766.5" y="-462.05" font-family="Helvetica,sans-Serif" font-size="10.00">dSv_save_c</text>
 </a>
@@ -324,7 +324,7 @@
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="structdSv__player__collect__c.html" target="_top" xlink:title=" ">
+<g id="a_node16"><a xlink:href="classdSv__player__collect__c.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="375,-141.05 266,-141.05 266,-122.05 375,-122.05 375,-141.05"/>
 <text text-anchor="middle" x="320.5" y="-129.05" font-family="Helvetica,sans-Serif" font-size="10.00">dSv_player_collect_c</text>
 </a>
@@ -475,7 +475,7 @@
 <!-- Node25 -->
 <g id="node25" class="node">
 <title>Node25</title>
-<g id="a_node25"><a xlink:href="structdSv__memory2__c.html" target="_top" xlink:title=" ">
+<g id="a_node25"><a xlink:href="classdSv__memory2__c.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="632.5,-491.05 543.5,-491.05 543.5,-472.05 632.5,-472.05 632.5,-491.05"/>
 <text text-anchor="middle" x="588" y="-479.05" font-family="Helvetica,sans-Serif" font-size="10.00">dSv_memory2_c</text>
 </a>

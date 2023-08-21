@@ -89,7 +89,6 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="msghndlr_8h_source.html">TRK_MINNOW_DOLPHIN/MetroTRK/Portable/msghndlr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="dol2asm_8h_source.html">dol2asm.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="types_8h_source.html">dolphin/types.h</a>&quot;</code><br />
 <code>#include &quot;asm/TRK_MINNOW_DOLPHIN/MetroTRK/Portable/msghndlr/TRKDoSetOption.s&quot;</code><br />
 <code>#include &quot;asm/TRK_MINNOW_DOLPHIN/MetroTRK/Portable/msghndlr/TRKDoStop.s&quot;</code><br />
 <code>#include &quot;asm/TRK_MINNOW_DOLPHIN/MetroTRK/Portable/msghndlr/TRKDoStep.s&quot;</code><br />
@@ -102,8 +101,6 @@ $(function() {
 <code>#include &quot;asm/TRK_MINNOW_DOLPHIN/MetroTRK/Portable/msghndlr/TRKDoReset.s&quot;</code><br />
 <code>#include &quot;asm/TRK_MINNOW_DOLPHIN/MetroTRK/Portable/msghndlr/TRKDoDisconnect.s&quot;</code><br />
 <code>#include &quot;asm/TRK_MINNOW_DOLPHIN/MetroTRK/Portable/msghndlr/TRKDoConnect.s&quot;</code><br />
-<code>#include &quot;asm/TRK_MINNOW_DOLPHIN/MetroTRK/Portable/msghndlr/SetTRKConnected.s&quot;</code><br />
-<code>#include &quot;asm/TRK_MINNOW_DOLPHIN/MetroTRK/Portable/msghndlr/GetTRKConnected.s&quot;</code><br />
 <code>#include &quot;asm/TRK_MINNOW_DOLPHIN/MetroTRK/Portable/msghndlr/OutputData.s&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for msghndlr.c:</div>
@@ -122,8 +119,8 @@ Functions</h2></td></tr>
 <tr class="separator:ae5483d4fbef9a528a3f56d30a4c5da3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51657d2f5e9dd942e4c87c68ae3440da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="dol2asm_8h.html#adc00f0d3ad529c0cb72985d54bfe7ccf">SECTION_INIT</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a51657d2f5e9dd942e4c87c68ae3440da">__TRK_reset</a> ()</td></tr>
 <tr class="separator:a51657d2f5e9dd942e4c87c68ae3440da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9835138640099db22d61dd4f8f592323"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a9835138640099db22d61dd4f8f592323">TRKConstructEvent</a> ()</td></tr>
-<tr class="separator:a9835138640099db22d61dd4f8f592323"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c889320f643992432c571a6ca55826d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a5c889320f643992432c571a6ca55826d">TRKConstructEvent</a> ()</td></tr>
+<tr class="separator:a5c889320f643992432c571a6ca55826d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a181df6fc43f1fc257f4657772871946e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a181df6fc43f1fc257f4657772871946e">TRKPostEvent</a> ()</td></tr>
 <tr class="separator:a181df6fc43f1fc257f4657772871946e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a060be27d674c92b50fb20ae8f7b1dc18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a060be27d674c92b50fb20ae8f7b1dc18">TRKMessageSend</a> ()</td></tr>
@@ -140,12 +137,12 @@ Functions</h2></td></tr>
 <tr class="separator:a914730d5f4c088213d1faee96dd6b9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fb856930a8b3c079212ce5f292eb645"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a5fb856930a8b3c079212ce5f292eb645">TRKTargetAccessARAM</a> ()</td></tr>
 <tr class="separator:a5fb856930a8b3c079212ce5f292eb645"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5ff6fba7e995eea0cad3b7bc351aa49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#af5ff6fba7e995eea0cad3b7bc351aa49">TRKTargetStop</a> ()</td></tr>
-<tr class="separator:af5ff6fba7e995eea0cad3b7bc351aa49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b12b79764f15613753ffd7d011bd539"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a0b12b79764f15613753ffd7d011bd539">TRKTargetStop</a> ()</td></tr>
+<tr class="separator:a0b12b79764f15613753ffd7d011bd539"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae971d4547d98bce81bf7605c640dc422"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#ae971d4547d98bce81bf7605c640dc422">TRKTargetStopped</a> ()</td></tr>
 <tr class="separator:ae971d4547d98bce81bf7605c640dc422"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add24c9d0ded8c288ac04ae2979fd6794"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#add24c9d0ded8c288ac04ae2979fd6794">TRKTargetGetPC</a> ()</td></tr>
-<tr class="separator:add24c9d0ded8c288ac04ae2979fd6794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c3f4a10d73e16cd5935ccb3da9d63ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a8c3f4a10d73e16cd5935ccb3da9d63ae">TRKTargetGetPC</a> ()</td></tr>
+<tr class="separator:a8c3f4a10d73e16cd5935ccb3da9d63ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e2d9a166840ce6c678ddc0d2327514b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a4e2d9a166840ce6c678ddc0d2327514b">TRKTargetStepOutOfRange</a> ()</td></tr>
 <tr class="separator:a4e2d9a166840ce6c678ddc0d2327514b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8c3d7c7c3e1ec47865a2aa28fa0d3e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#ae8c3d7c7c3e1ec47865a2aa28fa0d3e5">TRKTargetSingleStep</a> ()</td></tr>
@@ -226,10 +223,10 @@ Functions</h2></td></tr>
 <tr class="separator:a4428789272832799a13c1b1a18d244e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cb05d85b2328974f21cec8a89fd1472"><td class="memItemLeft" align="right" valign="top">asm <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a4cb05d85b2328974f21cec8a89fd1472">TRKDoConnect</a> (<a class="el" href="structTRKBuffer.html">TRKBuffer</a> *)</td></tr>
 <tr class="separator:a4cb05d85b2328974f21cec8a89fd1472"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b9513c8a6b9d693816f6b12519bf951"><td class="memItemLeft" align="right" valign="top">asm void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a4b9513c8a6b9d693816f6b12519bf951">SetTRKConnected</a> (<a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>)</td></tr>
-<tr class="separator:a4b9513c8a6b9d693816f6b12519bf951"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3695da9a431995e6fe4c30de1eb74a79"><td class="memItemLeft" align="right" valign="top">asm <a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a3695da9a431995e6fe4c30de1eb74a79">GetTRKConnected</a> (void)</td></tr>
-<tr class="separator:a3695da9a431995e6fe4c30de1eb74a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb40dd77eaae7bbf0bf1b83a52fe262a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#adb40dd77eaae7bbf0bf1b83a52fe262a">SetTRKConnected</a> (<a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> isTRKConnected)</td></tr>
+<tr class="separator:adb40dd77eaae7bbf0bf1b83a52fe262a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9de5fdca4eaf57da01b329dd2366216"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#af9de5fdca4eaf57da01b329dd2366216">GetTRKConnected</a> (void)</td></tr>
+<tr class="separator:af9de5fdca4eaf57da01b329dd2366216"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a463f89ad7698dfcb77ee49cbdd35f6c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a463f89ad7698dfcb77ee49cbdd35f6c6">COMPILER_STRIP_GATE</a> (0x803A2AAC, &amp;<a class="el" href="msghndlr_8c.html#aa438073b633bc585179bd0b57b40d7ec">lit_573</a>)</td></tr>
 <tr class="separator:a463f89ad7698dfcb77ee49cbdd35f6c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9baa680eb158409fd217aba22931423"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#af9baa680eb158409fd217aba22931423">COMPILER_STRIP_GATE</a> (0x803A2AB4, &amp;<a class="el" href="msghndlr_8c.html#a78e3e9205aca51bdea25431f65506821">lit_574</a>)</td></tr>
@@ -269,8 +266,8 @@ Variables</h2></td></tr>
 <tr class="separator:ac81a78a16b1bfdd85d690328b1e4e660"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1be18b3ccf414c971eae48fca6dc2cd6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a9d99eb16c89214979b98ba942a455e7b">SECTION_DATA</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a1be18b3ccf414c971eae48fca6dc2cd6">lit_536</a> [7]</td></tr>
 <tr class="separator:a1be18b3ccf414c971eae48fca6dc2cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02f3a9f72c3f9da5424125ffe2d5d80d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a7873e820b6567070fa316a6dac0a74dd">SECTION_BSS</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a02f3a9f72c3f9da5424125ffe2d5d80d">IsTRKConnected</a> [4+4]</td></tr>
-<tr class="separator:a02f3a9f72c3f9da5424125ffe2d5d80d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47e7f71c04ee9e9a04fa05748cb6ecbd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a7873e820b6567070fa316a6dac0a74dd">SECTION_BSS</a> <a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a47e7f71c04ee9e9a04fa05748cb6ecbd">IsTRKConnected</a></td></tr>
+<tr class="separator:a47e7f71c04ee9e9a04fa05748cb6ecbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa438073b633bc585179bd0b57b40d7ec"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a4b9935e85afcb3a8dd9bb8636b23ce3b">SECTION_RODATA</a> char const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#aa438073b633bc585179bd0b57b40d7ec">lit_573</a> [] = &quot;%02x &quot;</td></tr>
 <tr class="separator:aa438073b633bc585179bd0b57b40d7ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78e3e9205aca51bdea25431f65506821"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="dol2asm_8h.html#a4b9935e85afcb3a8dd9bb8636b23ce3b">SECTION_RODATA</a> char const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="msghndlr_8c.html#a78e3e9205aca51bdea25431f65506821">lit_574</a> [] = &quot;\n&quot;</td></tr>
@@ -759,14 +756,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a3695da9a431995e6fe4c30de1eb74a79" name="a3695da9a431995e6fe4c30de1eb74a79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3695da9a431995e6fe4c30de1eb74a79">&#9670;&#160;</a></span>GetTRKConnected()</h2>
+<a id="af9de5fdca4eaf57da01b329dd2366216" name="af9de5fdca4eaf57da01b329dd2366216"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9de5fdca4eaf57da01b329dd2366216">&#9670;&#160;</a></span>GetTRKConnected()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm <a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> GetTRKConnected </td>
+          <td class="memname"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> GetTRKConnected </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -828,17 +825,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4b9513c8a6b9d693816f6b12519bf951" name="a4b9513c8a6b9d693816f6b12519bf951"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b9513c8a6b9d693816f6b12519bf951">&#9670;&#160;</a></span>SetTRKConnected()</h2>
+<a id="adb40dd77eaae7bbf0bf1b83a52fe262a" name="adb40dd77eaae7bbf0bf1b83a52fe262a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb40dd77eaae7bbf0bf1b83a52fe262a">&#9670;&#160;</a></span>SetTRKConnected()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm void SetTRKConnected </td>
+          <td class="memname">void SetTRKConnected </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>isTRKConnected</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -897,14 +894,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9835138640099db22d61dd4f8f592323" name="a9835138640099db22d61dd4f8f592323"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9835138640099db22d61dd4f8f592323">&#9670;&#160;</a></span>TRKConstructEvent()</h2>
+<a id="a5c889320f643992432c571a6ca55826d" name="a5c889320f643992432c571a6ca55826d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c889320f643992432c571a6ca55826d">&#9670;&#160;</a></span>TRKConstructEvent()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm void TRKConstructEvent </td>
+          <td class="memname">void TRKConstructEvent </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1355,14 +1352,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="add24c9d0ded8c288ac04ae2979fd6794" name="add24c9d0ded8c288ac04ae2979fd6794"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add24c9d0ded8c288ac04ae2979fd6794">&#9670;&#160;</a></span>TRKTargetGetPC()</h2>
+<a id="a8c3f4a10d73e16cd5935ccb3da9d63ae" name="a8c3f4a10d73e16cd5935ccb3da9d63ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c3f4a10d73e16cd5935ccb3da9d63ae">&#9670;&#160;</a></span>TRKTargetGetPC()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm void TRKTargetGetPC </td>
+          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> TRKTargetGetPC </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1406,14 +1403,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af5ff6fba7e995eea0cad3b7bc351aa49" name="af5ff6fba7e995eea0cad3b7bc351aa49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5ff6fba7e995eea0cad3b7bc351aa49">&#9670;&#160;</a></span>TRKTargetStop()</h2>
+<a id="a0b12b79764f15613753ffd7d011bd539" name="a0b12b79764f15613753ffd7d011bd539"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b12b79764f15613753ffd7d011bd539">&#9670;&#160;</a></span>TRKTargetStop()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">asm void TRKTargetStop </td>
+          <td class="memname"><a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a> TRKTargetStop </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1475,8 +1472,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a02f3a9f72c3f9da5424125ffe2d5d80d" name="a02f3a9f72c3f9da5424125ffe2d5d80d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02f3a9f72c3f9da5424125ffe2d5d80d">&#9670;&#160;</a></span>IsTRKConnected</h2>
+<a id="a47e7f71c04ee9e9a04fa05748cb6ecbd" name="a47e7f71c04ee9e9a04fa05748cb6ecbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47e7f71c04ee9e9a04fa05748cb6ecbd">&#9670;&#160;</a></span>IsTRKConnected</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1485,7 +1482,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="dol2asm_8h.html#a7873e820b6567070fa316a6dac0a74dd">SECTION_BSS</a> <a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a> IsTRKConnected[4+4]</td>
+          <td class="memname"><a class="el" href="dol2asm_8h.html#a7873e820b6567070fa316a6dac0a74dd">SECTION_BSS</a> <a class="el" href="types_8h.html#a050c65e107f0c828f856a231f4b4e788">BOOL</a> IsTRKConnected</td>
         </tr>
       </table>
   </td>
@@ -1808,7 +1805,7 @@ Variables</h2></td></tr>
 <div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="msghndlr_8c.html#aefb95363891ee7da85aba0637412e8f4">TRKDoWriteMemory</a>) + 0x19C), (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="msghndlr_8c.html#aefb95363891ee7da85aba0637412e8f4">TRKDoWriteMemory</a>) + 0x1A4),</div>
 <div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="msghndlr_8c.html#aefb95363891ee7da85aba0637412e8f4">TRKDoWriteMemory</a>) + 0x1AC),</div>
 <div class="line">}</div>
-<div class="ttc" id="amsghndlr_8c_html_aefb95363891ee7da85aba0637412e8f4"><div class="ttname"><a href="msghndlr_8c.html#aefb95363891ee7da85aba0637412e8f4">TRKDoWriteMemory</a></div><div class="ttdeci">asm s32 TRKDoWriteMemory(TRKBuffer *)</div><div class="ttdef"><b>Definition:</b> msghndlr.c:207</div></div>
+<div class="ttc" id="amsghndlr_8c_html_aefb95363891ee7da85aba0637412e8f4"><div class="ttname"><a href="msghndlr_8c.html#aefb95363891ee7da85aba0637412e8f4">TRKDoWriteMemory</a></div><div class="ttdeci">asm s32 TRKDoWriteMemory(TRKBuffer *)</div><div class="ttdef"><b>Definition:</b> msghndlr.c:206</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1859,7 +1856,7 @@ Variables</h2></td></tr>
 <div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="msghndlr_8c.html#a4b8f93223797f59cca4a05259c6d61f8">TRKDoReadMemory</a>) + 0x1A4), (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="msghndlr_8c.html#a4b8f93223797f59cca4a05259c6d61f8">TRKDoReadMemory</a>) + 0x1AC),</div>
 <div class="line">    (<span class="keywordtype">void</span>*)(((<span class="keywordtype">char</span>*)<a class="code hl_function" href="msghndlr_8c.html#a4b8f93223797f59cca4a05259c6d61f8">TRKDoReadMemory</a>) + 0x1B4),</div>
 <div class="line">}</div>
-<div class="ttc" id="amsghndlr_8c_html_a4b8f93223797f59cca4a05259c6d61f8"><div class="ttname"><a href="msghndlr_8c.html#a4b8f93223797f59cca4a05259c6d61f8">TRKDoReadMemory</a></div><div class="ttdeci">asm s32 TRKDoReadMemory(TRKBuffer *)</div><div class="ttdef"><b>Definition:</b> msghndlr.c:233</div></div>
+<div class="ttc" id="amsghndlr_8c_html_a4b8f93223797f59cca4a05259c6d61f8"><div class="ttname"><a href="msghndlr_8c.html#a4b8f93223797f59cca4a05259c6d61f8">TRKDoReadMemory</a></div><div class="ttdeci">asm s32 TRKDoReadMemory(TRKBuffer *)</div><div class="ttdef"><b>Definition:</b> msghndlr.c:232</div></div>
 </div><!-- fragment -->
 </div>
 </div>

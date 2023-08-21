@@ -103,7 +103,7 @@ $(function() {
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="card_8h__dep__incl.svg" width="100%" height="514"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="card_8h__dep__incl.svg" width="100%" height="393"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div>
@@ -150,17 +150,17 @@ Macros</h2></td></tr>
 <tr class="separator:ae850598f8eccd3502a4d07c737eef6ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c9e1243cb938307319390e06b101026"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a0c9e1243cb938307319390e06b101026">CARDGetIconAnim</a>(stat)&#160;&#160;&#160;(((stat)-&gt;bannerFormat) &amp; <a class="el" href="card_8h.html#ae1ac762b417900df56cbca6a9f701b7d">CARD_STAT_ANIM_MASK</a>)</td></tr>
 <tr class="separator:a0c9e1243cb938307319390e06b101026"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf3a27f8f2ed0933654973f23c1b9151"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#acf3a27f8f2ed0933654973f23c1b9151">CARDGetIconFormat</a>(stat,  n)&#160;&#160;&#160;(((stat)-&gt;iconFormat &gt;&gt; (2 * (n))) &amp; <a class="el" href="card_8h.html#aa6a851e251673023b12c40300f4fee4f">CARD_STAT_ICON_MASK</a>)</td></tr>
+<tr class="memitem:acf3a27f8f2ed0933654973f23c1b9151"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#acf3a27f8f2ed0933654973f23c1b9151">CARDGetIconFormat</a>(stat,  <a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>)&#160;&#160;&#160;(((stat)-&gt;iconFormat &gt;&gt; (2 * (<a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>))) &amp; <a class="el" href="card_8h.html#aa6a851e251673023b12c40300f4fee4f">CARD_STAT_ICON_MASK</a>)</td></tr>
 <tr class="separator:acf3a27f8f2ed0933654973f23c1b9151"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63c9bf7876f86801ea2be26fc52e371f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a63c9bf7876f86801ea2be26fc52e371f">CARDGetIconSpeed</a>(stat,  n)&#160;&#160;&#160;(((stat)-&gt;iconSpeed &gt;&gt; (2 * (n))) &amp; <a class="el" href="card_8h.html#aa778bb0777183d7be32aac22008de161">CARD_STAT_SPEED_MASK</a>)</td></tr>
+<tr class="memitem:a63c9bf7876f86801ea2be26fc52e371f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a63c9bf7876f86801ea2be26fc52e371f">CARDGetIconSpeed</a>(stat,  <a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>)&#160;&#160;&#160;(((stat)-&gt;iconSpeed &gt;&gt; (2 * (<a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>))) &amp; <a class="el" href="card_8h.html#aa778bb0777183d7be32aac22008de161">CARD_STAT_SPEED_MASK</a>)</td></tr>
 <tr class="separator:a63c9bf7876f86801ea2be26fc52e371f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae336df7487cc6d5259fb7682f7335196"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#ae336df7487cc6d5259fb7682f7335196">CARDSetBannerFormat</a>(stat,  f)&#160;&#160;&#160;  ((stat)-&gt;bannerFormat = (<a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>)(((stat)-&gt;bannerFormat &amp; ~<a class="el" href="card_8h.html#a44a7b74e527d1fdef8764018cccb8ca4">CARD_STAT_BANNER_MASK</a>) | (f)))</td></tr>
 <tr class="separator:ae336df7487cc6d5259fb7682f7335196"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a553bdaa563736714aaa9acabf4caf7c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a553bdaa563736714aaa9acabf4caf7c7">CARDSetIconAnim</a>(stat,  f)&#160;&#160;&#160;  ((stat)-&gt;bannerFormat = (<a class="el" href="types_8h.html#aed742c436da53c1080638ce6ef7d13de">u8</a>)(((stat)-&gt;bannerFormat &amp; ~<a class="el" href="card_8h.html#ae1ac762b417900df56cbca6a9f701b7d">CARD_STAT_ANIM_MASK</a>) | (f)))</td></tr>
 <tr class="separator:a553bdaa563736714aaa9acabf4caf7c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77d327cf5613f0a4d3305555cc6503ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a77d327cf5613f0a4d3305555cc6503ab">CARDSetIconFormat</a>(stat,  n,  f)</td></tr>
+<tr class="memitem:a77d327cf5613f0a4d3305555cc6503ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a77d327cf5613f0a4d3305555cc6503ab">CARDSetIconFormat</a>(stat,  <a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>,  f)</td></tr>
 <tr class="separator:a77d327cf5613f0a4d3305555cc6503ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32eb0417ca3305c9c9a53dd878de8703"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a32eb0417ca3305c9c9a53dd878de8703">CARDSetIconSpeed</a>(stat,  n,  f)</td></tr>
+<tr class="memitem:a32eb0417ca3305c9c9a53dd878de8703"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a32eb0417ca3305c9c9a53dd878de8703">CARDSetIconSpeed</a>(stat,  <a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>,  f)</td></tr>
 <tr class="separator:a32eb0417ca3305c9c9a53dd878de8703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d29b488df413d4cffe161f0c7121fbc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a2d29b488df413d4cffe161f0c7121fbc">CARDSetIconAddress</a>(stat,  addr)&#160;&#160;&#160;((stat)-&gt;iconAddr = (<a class="el" href="types_8h.html#a2caf5cd7bcdbe1eefa727f44ffb10bac">u32</a>)(addr))</td></tr>
 <tr class="separator:a2d29b488df413d4cffe161f0c7121fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -288,9 +288,9 @@ Functions</h2></td></tr>
 <tr class="separator:a4210d5a3feff92cc633b519dd8d593d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52867ec62756a9aac2eb08b7d9c50a06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a52867ec62756a9aac2eb08b7d9c50a06">CARDClose</a> (<a class="el" href="structCARDFileInfo.html">CARDFileInfo</a> *fileInfo)</td></tr>
 <tr class="separator:a52867ec62756a9aac2eb08b7d9c50a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fbf75d206ccd361d4b56bf2b9d465d5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a6fbf75d206ccd361d4b56bf2b9d465d5">CARDReadAsync</a> (<a class="el" href="structCARDFileInfo.html">CARDFileInfo</a> *fileInfo, void *buf, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> length, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> <a class="el" href="d__gameover_8cpp.html#a2928a81aabe02fb912912373508b1286">offset</a>, <a class="el" href="card_8h.html#a7e14558c66d616c768d3a6f73bd640a6">CARDCallback</a> callback)</td></tr>
+<tr class="memitem:a6fbf75d206ccd361d4b56bf2b9d465d5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a6fbf75d206ccd361d4b56bf2b9d465d5">CARDReadAsync</a> (<a class="el" href="structCARDFileInfo.html">CARDFileInfo</a> *fileInfo, void *buf, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> length, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> <a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>, <a class="el" href="card_8h.html#a7e14558c66d616c768d3a6f73bd640a6">CARDCallback</a> callback)</td></tr>
 <tr class="separator:a6fbf75d206ccd361d4b56bf2b9d465d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeff2d93ce202ad27c452a92381cd445f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#aeff2d93ce202ad27c452a92381cd445f">CARDRead</a> (<a class="el" href="structCARDFileInfo.html">CARDFileInfo</a> *fileInfo, void *buf, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> length, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> <a class="el" href="d__gameover_8cpp.html#a2928a81aabe02fb912912373508b1286">offset</a>)</td></tr>
+<tr class="memitem:aeff2d93ce202ad27c452a92381cd445f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#aeff2d93ce202ad27c452a92381cd445f">CARDRead</a> (<a class="el" href="structCARDFileInfo.html">CARDFileInfo</a> *fileInfo, void *buf, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> length, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> <a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)</td></tr>
 <tr class="separator:aeff2d93ce202ad27c452a92381cd445f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30622381091886567bcee27d6520d777"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a30622381091886567bcee27d6520d777">CARDSetStatus</a> (<a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> chan, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> fileNo, <a class="el" href="structCARDStat.html">CARDStat</a> *stat)</td></tr>
 <tr class="separator:a30622381091886567bcee27d6520d777"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -298,9 +298,9 @@ Functions</h2></td></tr>
 <tr class="separator:a154db1efb6f362c33a8a900402e88b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae470e3eba098d9e65417f9d11383ed5f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#ae470e3eba098d9e65417f9d11383ed5f">CARDSetStatusAsync</a> (<a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> chan, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> fileNo, <a class="el" href="structCARDStat.html">CARDStat</a> *stat, <a class="el" href="card_8h.html#a7e14558c66d616c768d3a6f73bd640a6">CARDCallback</a> callback)</td></tr>
 <tr class="separator:ae470e3eba098d9e65417f9d11383ed5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76c378487c3b24f0b3e53f7a3524365d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a76c378487c3b24f0b3e53f7a3524365d">CARDWriteAsync</a> (<a class="el" href="structCARDFileInfo.html">CARDFileInfo</a> *fileInfo, const void *buf, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> length, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> <a class="el" href="d__gameover_8cpp.html#a2928a81aabe02fb912912373508b1286">offset</a>, <a class="el" href="card_8h.html#a7e14558c66d616c768d3a6f73bd640a6">CARDCallback</a> callback)</td></tr>
+<tr class="memitem:a76c378487c3b24f0b3e53f7a3524365d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a76c378487c3b24f0b3e53f7a3524365d">CARDWriteAsync</a> (<a class="el" href="structCARDFileInfo.html">CARDFileInfo</a> *fileInfo, const void *buf, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> length, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> <a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>, <a class="el" href="card_8h.html#a7e14558c66d616c768d3a6f73bd640a6">CARDCallback</a> callback)</td></tr>
 <tr class="separator:a76c378487c3b24f0b3e53f7a3524365d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4117538eea40285632b3996b6ecaa37a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a4117538eea40285632b3996b6ecaa37a">CARDWrite</a> (<a class="el" href="structCARDFileInfo.html">CARDFileInfo</a> *fileInfo, const void *buf, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> length, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> <a class="el" href="d__gameover_8cpp.html#a2928a81aabe02fb912912373508b1286">offset</a>)</td></tr>
+<tr class="memitem:a4117538eea40285632b3996b6ecaa37a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="card_8h.html#a4117538eea40285632b3996b6ecaa37a">CARDWrite</a> (<a class="el" href="structCARDFileInfo.html">CARDFileInfo</a> *fileInfo, const void *buf, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> length, <a class="el" href="types_8h.html#adafe97a8e4be18b0198f234819016582">s32</a> <a class="el" href="d__gameover_8cpp.html#a278744385c8918b3813d6136e5e37b30">offset</a>)</td></tr>
 <tr class="separator:a4117538eea40285632b3996b6ecaa37a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -1102,12 +1102,12 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">n&#160;</td>
+          <td class="paramname"><a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(((stat)-&gt;iconFormat &gt;&gt; (2 * (n))) &amp; <a class="el" href="card_8h.html#aa6a851e251673023b12c40300f4fee4f">CARD_STAT_ICON_MASK</a>)</td>
+          <td></td><td>&#160;&#160;&#160;(((stat)-&gt;iconFormat &gt;&gt; (2 * (<a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>))) &amp; <a class="el" href="card_8h.html#aa6a851e251673023b12c40300f4fee4f">CARD_STAT_ICON_MASK</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1130,12 +1130,12 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">n&#160;</td>
+          <td class="paramname"><a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(((stat)-&gt;iconSpeed &gt;&gt; (2 * (n))) &amp; <a class="el" href="card_8h.html#aa778bb0777183d7be32aac22008de161">CARD_STAT_SPEED_MASK</a>)</td>
+          <td></td><td>&#160;&#160;&#160;(((stat)-&gt;iconSpeed &gt;&gt; (2 * (<a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>))) &amp; <a class="el" href="card_8h.html#aa778bb0777183d7be32aac22008de161">CARD_STAT_SPEED_MASK</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1270,7 +1270,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">n, </td>
+          <td class="paramname"><a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1286,8 +1286,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">  ((stat)-&gt;iconFormat =                                                                            \</div>
-<div class="line">       (<a class="code hl_typedef" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a>)(((stat)-&gt;iconFormat &amp; ~(<a class="code hl_define" href="card_8h.html#aa6a851e251673023b12c40300f4fee4f">CARD_STAT_ICON_MASK</a> &lt;&lt; (2 * (n)))) | ((f) &lt;&lt; (2 * (n)))))</div>
+<div class="line">       (<a class="code hl_typedef" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a>)(((stat)-&gt;iconFormat &amp; ~(<a class="code hl_define" href="card_8h.html#aa6a851e251673023b12c40300f4fee4f">CARD_STAT_ICON_MASK</a> &lt;&lt; (2 * (<a class="code hl_variable" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>)))) | ((f) &lt;&lt; (2 * (<a class="code hl_variable" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>)))))</div>
 <div class="ttc" id="acard_8h_html_aa6a851e251673023b12c40300f4fee4f"><div class="ttname"><a href="card_8h.html#aa6a851e251673023b12c40300f4fee4f">CARD_STAT_ICON_MASK</a></div><div class="ttdeci">#define CARD_STAT_ICON_MASK</div><div class="ttdef"><b>Definition:</b> card.h:68</div></div>
+<div class="ttc" id="ainit_8h_html_a7ff3cacc14747d630cb3e5b9426c9c6e"><div class="ttname"><a href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a></div><div class="ttdeci">int size_t n</div><div class="ttdef"><b>Definition:</b> init.h:10</div></div>
 <div class="ttc" id="atypes_8h_html_a9e6c91d77e24643b888dbd1a1a590054"><div class="ttname"><a href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a></div><div class="ttdeci">unsigned short u16</div><div class="ttdef"><b>Definition:</b> types.h:9</div></div>
 </div><!-- fragment -->
 </div>
@@ -1308,7 +1309,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">n, </td>
+          <td class="paramname"><a class="el" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1324,7 +1325,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">  ((stat)-&gt;iconSpeed =                                                                             \</div>
-<div class="line">       (<a class="code hl_typedef" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a>)(((stat)-&gt;iconSpeed &amp; ~(<a class="code hl_define" href="card_8h.html#aa778bb0777183d7be32aac22008de161">CARD_STAT_SPEED_MASK</a> &lt;&lt; (2 * (n)))) | ((f) &lt;&lt; (2 * (n)))))</div>
+<div class="line">       (<a class="code hl_typedef" href="types_8h.html#a9e6c91d77e24643b888dbd1a1a590054">u16</a>)(((stat)-&gt;iconSpeed &amp; ~(<a class="code hl_define" href="card_8h.html#aa778bb0777183d7be32aac22008de161">CARD_STAT_SPEED_MASK</a> &lt;&lt; (2 * (<a class="code hl_variable" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>)))) | ((f) &lt;&lt; (2 * (<a class="code hl_variable" href="init_8h.html#a7ff3cacc14747d630cb3e5b9426c9c6e">n</a>)))))</div>
 <div class="ttc" id="acard_8h_html_aa778bb0777183d7be32aac22008de161"><div class="ttname"><a href="card_8h.html#aa778bb0777183d7be32aac22008de161">CARD_STAT_SPEED_MASK</a></div><div class="ttdeci">#define CARD_STAT_SPEED_MASK</div><div class="ttdef"><b>Definition:</b> card.h:83</div></div>
 </div><!-- fragment -->
 </div>
