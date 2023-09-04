@@ -124,9 +124,32 @@ $(function() {
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="JMath_8h.html#a68e6580e820a34bc8b43294f6769615e">JMAFastReciprocal</a>(value);</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>}</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>};  <span class="comment">// namespace JMath</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#endif </span><span class="comment">/* JMATH_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="namespaceJMath.html#add3d7f1d1ec56c28d2b103ff85e735f7">   41</a></span><span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="namespaceJMath.html#add3d7f1d1ec56c28d2b103ff85e735f7">gekko_ps_copy12</a>(<span class="keyword">register</span> <a class="code hl_typedef" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>* dst, <span class="keyword">register</span> <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a>* src) {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">register</span> <a class="code hl_typedef" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> src0;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keyword">register</span> <a class="code hl_typedef" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> src1;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keyword">register</span> <a class="code hl_typedef" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> src2;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="keyword">register</span> <a class="code hl_typedef" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> src3;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keyword">register</span> <a class="code hl_typedef" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> src4;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">register</span> <a class="code hl_typedef" href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a> src5;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="keyword">asm</span> {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        psq_l src0, 0(src), 0, 0</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        psq_l src1, 8(src), 0, 0</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        psq_l src2, 16(src), 0, 0</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        psq_l src3, 24(src), 0, 0</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>        psq_l src4, 32(src), 0, 0</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        psq_l src5, 40(src), 0, 0</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>        psq_st src0, 0(dst), 0, 0</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        psq_st src1, 8(dst), 0, 0</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        psq_st src2, 16(dst), 0, 0</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        psq_st src3, 24(dst), 0, 0</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        psq_st src4, 32(dst), 0, 0</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        psq_st src5, 40(dst), 0, 0</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    };</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>}</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>};  <span class="comment">// namespace JMath</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#endif </span><span class="comment">/* JMATH_H */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="aJMath_8h_html_a286260dd64be4ef2dce58c19de8cf08c"><div class="ttname"><a href="JMath_8h.html#a286260dd64be4ef2dce58c19de8cf08c">JMAFastSqrt</a></div><div class="ttdeci">f32 JMAFastSqrt(register f32 input)</div><div class="ttdef"><b>Definition:</b> JMath.h:23</div></div>
 <div class="ttc" id="aJMath_8h_html_a3e96476a059b39c42e1241fd063602ea"><div class="ttname"><a href="JMath_8h.html#a3e96476a059b39c42e1241fd063602ea">__frsqrtes</a></div><div class="ttdeci">float __frsqrtes(register double f)</div><div class="ttdef"><b>Definition:</b> JMath.h:13</div></div>
 <div class="ttc" id="aJMath_8h_html_a68d66e31dbd6458f19e8b43ab4e3bdee"><div class="ttname"><a href="JMath_8h.html#a68d66e31dbd6458f19e8b43ab4e3bdee">JMAEulerToQuat</a></div><div class="ttdeci">void JMAEulerToQuat(s16 param_0, s16 param_1, s16 param_2, Quaternion *param_3)</div><div class="ttdef"><b>Definition:</b> JMath.cpp:51</div></div>
@@ -136,6 +159,7 @@ $(function() {
 <div class="ttc" id="amtx_8h_html_afc58fc7f5dd84f97da2dab35156849ae"><div class="ttname"><a href="mtx_8h.html#afc58fc7f5dd84f97da2dab35156849ae">Mtx</a></div><div class="ttdeci">f32 Mtx[3][4]</div><div class="ttdef"><b>Definition:</b> mtx.h:12</div></div>
 <div class="ttc" id="anamespaceJMath_html"><div class="ttname"><a href="namespaceJMath.html">JMath</a></div><div class="ttdef"><b>Definition:</b> JMATrigonometric.cpp:77</div></div>
 <div class="ttc" id="anamespaceJMath_html_aaacbd97029a9626f4028cb3988077e51"><div class="ttname"><a href="namespaceJMath.html#aaacbd97029a9626f4028cb3988077e51">JMath::fastReciprocal</a></div><div class="ttdeci">f32 fastReciprocal(f32 value)</div><div class="ttdef"><b>Definition:</b> JMath.h:37</div></div>
+<div class="ttc" id="anamespaceJMath_html_add3d7f1d1ec56c28d2b103ff85e735f7"><div class="ttname"><a href="namespaceJMath.html#add3d7f1d1ec56c28d2b103ff85e735f7">JMath::gekko_ps_copy12</a></div><div class="ttdeci">void gekko_ps_copy12(register f32 *dst, register const f32 *src)</div><div class="ttdef"><b>Definition:</b> JMath.h:41</div></div>
 <div class="ttc" id="astructQuaternion_html"><div class="ttname"><a href="structQuaternion.html">Quaternion</a></div><div class="ttdef"><b>Definition:</b> quat.h:10</div></div>
 <div class="ttc" id="atypes_8h_html_a5f6906312a689f27d70e9d086649d3fd"><div class="ttname"><a href="types_8h.html#a5f6906312a689f27d70e9d086649d3fd">f32</a></div><div class="ttdeci">float f32</div><div class="ttdef"><b>Definition:</b> types.h:22</div></div>
 <div class="ttc" id="atypes_8h_html_a5ffa4f640862b25ba6d4f635b78bdbe1"><div class="ttname"><a href="types_8h.html#a5ffa4f640862b25ba6d4f635b78bdbe1">s16</a></div><div class="ttdeci">signed short s16</div><div class="ttdef"><b>Definition:</b> types.h:5</div></div>

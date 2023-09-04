@@ -52,5 +52,6 @@ var searchData=
   ['output_5fconsole_49',['OUTPUT_CONSOLE',['../classJUTConsole.html#a6932adf6a81c4c2d4f2dd8f76dc3f0a1aaba7be9daff3eab9a89779be2412fb48',1,'JUTConsole']]],
   ['output_5fnone_50',['OUTPUT_NONE',['../classJUTConsole.html#a6932adf6a81c4c2d4f2dd8f76dc3f0a1a07e56d0ccc9f35caf69a2461052dbaab',1,'JUTConsole']]],
   ['output_5fosr_5fand_5fconsole_51',['OUTPUT_OSR_AND_CONSOLE',['../classJUTConsole.html#a6932adf6a81c4c2d4f2dd8f76dc3f0a1aa292b2475f8114cc75c6b5101e48f739',1,'JUTConsole']]],
-  ['output_5fosreport_52',['OUTPUT_OSREPORT',['../classJUTConsole.html#a6932adf6a81c4c2d4f2dd8f76dc3f0a1a3b33a43fad34bab707a246827a61cc6d',1,'JUTConsole']]]
+  ['output_5fosreport_52',['OUTPUT_OSREPORT',['../classJUTConsole.html#a6932adf6a81c4c2d4f2dd8f76dc3f0a1a3b33a43fad34bab707a246827a61cc6d',1,'JUTConsole']]],
+  ['output_5frate_5f0_53',['OUTPUT_RATE_0',['../JASAiCtrl_8h.html#a17798305b6b8f32e641d4de5c1382286a543e42b9012415c9b66130a01a1e9d05',1,'JASAiCtrl.h']]]
 ];
