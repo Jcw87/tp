@@ -56,7 +56,7 @@ TFunctionValue::TFunctionValue() {}
 TFunctionValue::~TFunctionValue() {}
 
 void TFunctionValueAttribute_refer::refer_initialize() {
-    clear();
+    mVector.clear();
 }
 
 bool TFunctionValueAttribute_refer::refer_isReferring(const TFunctionValue* p) const {
@@ -271,10 +271,10 @@ f64 TFunctionValue_composite::getValue(f64 arg1) {
     JUT_ASSERT(564, !refer_isReferring(this));
     JUT_ASSERT(565, pfn_!=NULL);
 
-    return pfn_(*container, *data_getData(), arg1);
+    return pfn_(container->mVector, *data_getData(), arg1);
 }
 
-f64 TFunctionValue_composite::composite_raw(TVector_pointer<TFunctionValue*> const& param_1,
+f64 TFunctionValue_composite::composite_raw(JGadget::TVector_pointer<TFunctionValue*> const& param_1,
                                                  TData const& param_2, f64 param_3) {
     uint index = param_2.get_unsignedInteger();
     if (index >= param_1.size()) {
@@ -288,7 +288,7 @@ f64 TFunctionValue_composite::composite_raw(TVector_pointer<TFunctionValue*> con
 }
 
 
-f64 TFunctionValue_composite::composite_index(TVector_pointer<TFunctionValue*> const& param_1,
+f64 TFunctionValue_composite::composite_index(JGadget::TVector_pointer<TFunctionValue*> const& param_1,
                                               TData const& param_2, f64 param_3) {
     s32 nSize = param_1.size();
     if (nSize <= 1) {
@@ -366,7 +366,7 @@ struct TContainerEnumerator_const_TVector : public JGadget::TEnumerator<const T*
 };
 
 f64
-TFunctionValue_composite::composite_parameter(TVector_pointer<TFunctionValue*> const& param_1,
+TFunctionValue_composite::composite_parameter(JGadget::TVector_pointer<TFunctionValue*> const& param_1,
                                               TData const& param_2, f64 param_3) {
     f64 dVar4 = param_3 - param_2.get_value();
     TContainerEnumerator_const_TVector<TFunctionValue*> aTStack_18(param_1);
@@ -378,7 +378,7 @@ TFunctionValue_composite::composite_parameter(TVector_pointer<TFunctionValue*> c
     return dVar4;
 }
 
-f64 TFunctionValue_composite::composite_add(TVector_pointer<TFunctionValue*> const& param_1,
+f64 TFunctionValue_composite::composite_add(JGadget::TVector_pointer<TFunctionValue*> const& param_1,
                                                  TData const& param_2, f64 param_3) {
     f64 dVar4 = param_2.get_value();
     TContainerEnumerator_const_TVector<TFunctionValue*> aTStack_18(param_1);
@@ -390,7 +390,7 @@ f64 TFunctionValue_composite::composite_add(TVector_pointer<TFunctionValue*> con
     return dVar4;
 }
 
-f64 TFunctionValue_composite::composite_subtract(TVector_pointer<TFunctionValue*> const& param_1,
+f64 TFunctionValue_composite::composite_subtract(JGadget::TVector_pointer<TFunctionValue*> const& param_1,
                                                  TData const& param_2, f64 param_3) {
     if (param_1.size() == 0) {
         return 0.0;
@@ -409,7 +409,7 @@ f64 TFunctionValue_composite::composite_subtract(TVector_pointer<TFunctionValue*
 }
 
 
-f64 TFunctionValue_composite::composite_multiply(TVector_pointer<TFunctionValue*> const& param_1,
+f64 TFunctionValue_composite::composite_multiply(JGadget::TVector_pointer<TFunctionValue*> const& param_1,
                                                  TData const& param_2, f64 param_3) {
     f64 dVar4 = param_2.get_value();
     TContainerEnumerator_const_TVector<TFunctionValue*> aTStack_18(param_1);
@@ -421,7 +421,7 @@ f64 TFunctionValue_composite::composite_multiply(TVector_pointer<TFunctionValue*
     return dVar4;
 }
 
-f64 TFunctionValue_composite::composite_divide(TVector_pointer<TFunctionValue*> const& param_1,
+f64 TFunctionValue_composite::composite_divide(JGadget::TVector_pointer<TFunctionValue*> const& param_1,
                                                  TData const& param_2, f64 param_3) {
     if (param_1.size() == 0) {
         return 0.0;

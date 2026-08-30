@@ -77,9 +77,9 @@ public:
     }
 };
 
-class TFunctionValueAttribute_refer : public JGadget::TVector_pointer<TFunctionValue*> {
+class TFunctionValueAttribute_refer {
 public:
-    TFunctionValueAttribute_refer() : JGadget::TVector_pointer<TFunctionValue*>(JGadget::TAllocator<void*>()) {}
+    TFunctionValueAttribute_refer() : mVector(JGadget::TAllocator<void*>()) {}
     ~TFunctionValueAttribute_refer() {}
 
     void refer_initialize();
@@ -87,7 +87,9 @@ public:
 
     void refer_prepare() {}
     const TFunctionValueAttribute_refer* refer_getContainer() const { return this; }
-    JGadget::TVector_pointer<TFunctionValue*>& refer_referContainer() { return *this; }
+    JGadget::TVector_pointer<TFunctionValue*>& refer_referContainer() { return mVector; }
+
+    /* 0x00 */ JGadget::TVector_pointer<TFunctionValue*> mVector;
 };
 
 class TFunctionValueAttribute_range {
@@ -225,18 +227,13 @@ public:
     virtual void initialize();
     virtual void prepare();
     virtual f64 getValue(f64);
-    static f64 composite_raw(TVector_pointer<TFunctionValue*> const&, TData const&, f64);
-    static f64 composite_index(TVector_pointer<TFunctionValue*> const&, TData const&, f64);
-    static f64 composite_parameter(TVector_pointer<TFunctionValue*> const&,
-                                                  TData const&, f64);
-    static f64 composite_add(TVector_pointer<JStudio::TFunctionValue*> const&,
-                                            TData const&, f64);
-    static f64 composite_subtract(TVector_pointer<TFunctionValue*> const&, TData const&,
-                                           f64);
-    static f64 composite_multiply(TVector_pointer<TFunctionValue*> const&, TData const&,
-                                           f64);
-    static f64 composite_divide(TVector_pointer<TFunctionValue*> const&, TData const&,
-                                         f64);
+    static f64 composite_raw(JGadget::TVector_pointer<TFunctionValue*> const&, TData const&, f64);
+    static f64 composite_index(JGadget::TVector_pointer<TFunctionValue*> const&, TData const&, f64);
+    static f64 composite_parameter(JGadget::TVector_pointer<TFunctionValue*> const&, TData const&, f64);
+    static f64 composite_add(JGadget::TVector_pointer<JStudio::TFunctionValue*> const&, TData const&, f64);
+    static f64 composite_subtract(JGadget::TVector_pointer<TFunctionValue*> const&, TData const&, f64);
+    static f64 composite_multiply(JGadget::TVector_pointer<TFunctionValue*> const&, TData const&, f64);
+    static f64 composite_divide(JGadget::TVector_pointer<TFunctionValue*> const&, TData const&, f64);
 
     void data_set(CompositeFunc fn, const TData& dat) {
         pfn_ = fn;
